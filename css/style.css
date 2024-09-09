@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-pesquisa {
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 300px;
+}
+
+form button {
+   background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.galeria-fotos {
+    text-align: center;
+}
+
+.galeria .linha {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.galeria .linha img {
+    margin: 0 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Estilo para o main */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #908388;
+}
+
+/* Estilo para o section */
+section {
+    text-align: center;
+    background-color: #5b3f3a;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
+}
+
+/* Estilo para o h2 */
+h2 {
+    color: black;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o parágrafo */
+p {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do header */
+header {
+    background-color: #020008;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Estilo para o título no header */
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* Estilo do nav */
+nav {
+    margin: 20px 0;
+}
+
+/* Links de navegação */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+/* Hover nos links */
+nav a:hover {
+    color: #f4f4f4;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Estilo do formulário de pesquisa */
+.form-pesquisa {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Input de pesquisa */
+.form-pesquisa input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Botão de pesquisa */
+.form-pesquisa button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #63dafc;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover no botão de pesquisa */
+.form-pesquisa button:hover {
+    background-color: #63dafc;
+}
+
+/* Estilo do rodapé */
+footer{
+    background-color: #1d719d;
+    width: 100;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Estilo geral para o footer */
+footer {
+    background-color: #1d719d;;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Título do formulário no rodapé */
+footer h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+.form-orcamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo do formulário */
+.form-orcamento input[type="text"],
+.form-orcamento input[type="email"],
+.form-orcamento textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o textarea */
+.form-orcamento textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Estilo do botão de envio */
+.form-orcamento button {
+    padding: 12px 20px;
+    background-color: #63dafc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito hover no botão de envio */
+.form-orcamento button:hover {
+    background-color: #63dafc;
+}
+
+.bottom-footer {
+    
+    color: #fff; 
+    text-align: center; 
+    padding: 20px 0; 
+    font-family: Arial, sans-serif; 
+    font-size: 14px; 
+    border-top: 1px solid #fff
+}
+
+.bottom-footer p {
+    margin: 0; 
+}
+
+.bottom-footer p:hover {
+    color: #ddd; 
+}
+
+
+   
